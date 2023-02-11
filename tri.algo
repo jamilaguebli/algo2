@@ -1,0 +1,15 @@
+ALGORITHM tri-par-inseration
+VAR
+    tab : ARRAY_OF INTEGER[50];
+    i,j,tm:INTEGER
+BEGIN
+   FOR i FROM 2 TO tab.length STEP 1 DO
+    tm := tab[i]
+    j := i-1
+     WHILE (tab[j]>tmp) DO
+      tab[j+1]:= tab[j]
+      j := j-1
+     END_WHILE
+      tab[j+1]:=tmp
+   END_FOR
+END

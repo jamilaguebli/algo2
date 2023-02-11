@@ -1,0 +1,11 @@
+FUNCTION dot-product(v1: ARRAY_OF INTEGER[50],v2: ARRAY_OF INTEGER[50]) :INTEGER
+VAR
+  
+   i:INTEGER
+   ps:INTEGER:=0
+BEGIN
+    FOR i FROM 0 TO N-1 STEP 1  DO
+     ps:= ps+ v1 *v2
+    END_FOR
+    RETURN ps ;
+END
